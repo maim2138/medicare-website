@@ -1,0 +1,52 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "fullname": "Dr.Sandra Bullock",
+      "age": 29,
+      "location": "Thailand"
+    },
+    {
+      "id": "2",
+      "fullname": "Dr.Lisa Ivey",
+      "age": 28,
+      "location": "Thailand"
+    },
+    {
+      "id": "3",
+      "fullname": "Dr.Salim Hayek",
+      "age": 35,
+      "location": "Thailand"
+    },
+    {
+      "id": "4",
+      "fullname": "Dr.Johnston K.",
+      "age": 57,
+      "location": "Thailand"
+    },
+    {
+      "id": "5",
+      "fullname": "Dr.Woody H.",
+      "age": 47,
+      "location": "Thailand"
+    },
+    {
+      "id": "49ab",
+      "fullname": "Dr.John levi",
+      "age": "43",
+      "location": "Nairobi"
+    },
+    {
+      "id": "19b6",
+      "fullname": "Dr.David Thome",
+      "age": "34",
+      "location": "Kisumu"
+    },
+    {
+      "id": "5d2e",
+      "fullname": "Dr.Joseph K.",
+      "age": "44",
+      "location": "Mombasa"
+    }
+  ]
+}
