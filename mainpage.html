@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Welcome to<br><span>Kenya's 1st</span> <br>Medical clinic</h1>
+            <p class="par">Medicare is committed to deliver to you quality medical services at your fingertips 
+                <br>Join us to become part of the medicare community</p>
+                <button class="cn" onclick="showSignUpModal()"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn" onclick="login()"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#" onclick="showSignUpModal()">Sign up </a> here</a></p>
+                    
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSignUpModal()">&times;</span>
+            <h1>Sign up </h1>
+            <form >
+                <label for="email">Email</label>
+                <input type="email" class="input-box" id="signUpEmail">
+                <label for="password">Password</label>
+                <input type="password" class="input-box" id="signUpPassword">
+                <p><span><input type="checkbox"></span> I agree to  the terms and services</p>
+                <br>
+                <button type="button" onclick="signUp()" class="signup-btn">Sign up</button>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <p class="or">OR</p>
+                <br>
+                <button type="button" class="signup-btn">Sign up with twitter</button>
+                <br>
+                <br>
+                <p>Do you have an account ? <a href="#">Sign in</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
