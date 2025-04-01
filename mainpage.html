@@ -63,7 +63,7 @@
                                 <div class="content-wrapper">
                                     <h1 class="banner-title">Virtual healthcare <br> for you</h1>
                                     <p class="text text-white">Medicare provides progressive, and affordable healthcare, accessible on mobile and onnline for everyone</p>
-                                    <a href = "#" class="btn btn-secondary">Consult today</a>
+                                    <a href = "#" id="openModalBtn" class="btn btn-secondary">Join us</a>
                                 </div>
                             </div>
 
@@ -75,6 +75,24 @@
                 </div>
             </header>
             <!-- end of header -->
+            <div id="signupModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Sign Up</h2>
+                    <form id="signupForm">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        
+                        <button type = "submit" class = "btn btn-primary-outline">Sign up</button>
+                    </form>
+                </div>
+            </div>
 
             <main>
                 <section class = "sc-services">
@@ -245,7 +263,7 @@
                                 <div class = "feedback-item d-grid">
                                     <div class = "item-left d-flex align-items-center">
                                         <div class = "item-img">
-                                            <img src = "images/pexels-bear-3728598.jpg" alt = "">
+                                            <img src = "./images/pexels-100k-makhasette-2160826-3805874.jpg" alt = "">
                                         </div>
                                         <div class = "item-info text-white">
                                             <p class = "fw-7 name">Samantha Mathey</p>
